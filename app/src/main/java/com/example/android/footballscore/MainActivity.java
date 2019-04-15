@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Team A.
      */
     public void displayForTeamA(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        TextView scoreView1 = (TextView) findViewById(R.id.team_a_score1);
+        TextView scoreView = findViewById(R.id.team_a_score);
+        TextView scoreView1 = findViewById(R.id.team_a_score1);
         scoreView.setText(String.valueOf(score));
         scoreView1.setText(String.valueOf(score));
     }
